@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import WorkOnLesson from './App';
+import WorkOnLessonAndHometask from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    { <WorkOnLesson /> }
+    { <WorkOnLessonAndHometask /> }
   </React.StrictMode>,
   document.getElementById('root')
 );

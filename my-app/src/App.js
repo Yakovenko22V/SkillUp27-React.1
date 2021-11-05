@@ -26,7 +26,7 @@ import { UserInfo } from "./components/UserInfo";
 // // }
 const name = 'Vitaliy';
 const sumNumber = (a, b) => a + b;
-function WorkOnLesson() {
+function WorkOnLessonAndHometask() {
     return (
         <div>
             <h1 style={{ border: '1px solid red' }} > Hello, {name}: {sumNumber(17, 5)} </h1>
@@ -35,4 +35,4 @@ function WorkOnLesson() {
         </div>
         );
 }
- export default WorkOnLesson;
+ export default WorkOnLessonAndHometask;
