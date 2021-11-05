@@ -1,4 +1,5 @@
 import React from "react";
+import { UserInfo } from "./components/UserInfo";
 //import logo from './logo.svg';
 // import './App.css';
 
@@ -23,13 +24,14 @@ import React from "react";
 // //     </div>
 // //   );
 // // }
-const name = 'Vova';
+const name = 'Vitaliy';
 const sumNumber = (a, b) => a + b;
 function WorkOnLesson() {
     return (
         <div>
-            <h1 style={{ border: '1px solid red' }} > hello {name}, {sumNumber(5, 6)} </h1>
-            <p>Test</p>
+            <h1 style={{ border: '1px solid red' }} > Hello, {name}: {sumNumber(17, 5)} </h1>
+            <p style={{fontWeight:'bold', color: 'green'}}>Test</p>
+            {<UserInfo></UserInfo>}
         </div>
         );
 }
