@@ -1,4 +1,5 @@
-// import logo from './logo.svg';
+import React from "react";
+//import logo from './logo.svg';
 // import './App.css';
 
 // // function App() {
@@ -22,5 +23,14 @@
 // //     </div>
 // //   );
 // // }
-
-// export default App;
+const name = 'Vova';
+const sumNumber = (a, b) => a + b;
+function WorkOnLesson() {
+    return (
+        <div>
+            <h1 style={{ border: '1px solid red' }} > hello {name}, {sumNumber(5, 6)} </h1>
+            <p>Test</p>
+        </div>
+        );
+}
+ export default WorkOnLesson;
