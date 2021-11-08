@@ -17,7 +17,7 @@ export function UserInfo(props) {
             <li>Пол: {userGender}</li>
             <li>Возраст: {userAge}</li>
             <li>Работает лет: {yearsWorked}</li>
-            <li>Зарплата:{yearsWorked * 10}00$</li>
+            <li>Зарплата: {yearsWorked * 10}</li>
             <hr style={{
                 color: '#000000',
                 height: .5,
