@@ -30,20 +30,20 @@ const sumNumber = (a, b) => a + b;
 const arrPeople = [
     {
         name: 'Вова',
-        pol: 'Муж',
+        pol: 'муж',
         age: 27,
         workYear: 1
     },
     {
-        name: 'Коля',
-        pol: 'Муж',
-        age: 98,
-        workYear: 90
+        name: 'Иван',
+        pol: 'муж',
+        age: 21,
+        workYear: 2
     },
     {
-        name: 'Валюха',
-        pol: 'Баба',
-        age: 17,
+        name: 'Ольга',
+        pol: 'жен',
+        age: 37,
         workYear: 3
     }
 ]

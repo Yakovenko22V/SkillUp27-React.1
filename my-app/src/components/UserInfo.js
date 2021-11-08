@@ -13,10 +13,11 @@ export function UserInfo (props) {
 
     return (
         <ul className='listOfData'>
-            <li>Name: {userName}</li>
-            <li>Gender: {userGender}</li>
-            <li>Age: {userAge}</li>
-            <li>Year Worked: {yearsWorked}</li>
+            <li>Имя: {userName}</li>
+            <li>Пол: {userGender}</li>
+            <li>Возраст: {userAge}</li>
+            <li>Работает лет: {yearsWorked}</li>
+            <li>Зарплата:{yearsWorked*10}</li>
         </ul>
 
     )
