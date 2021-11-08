@@ -2,14 +2,14 @@ import React from "react";
 
 import '../components/UserInfo.css'
 
-export function UserInfo (props) {
+export function UserInfo(props) {
 
-    const { 
-        userName, 
-        userGender, 
-        userAge, 
+    const {
+        userName,
+        userGender,
+        userAge,
         yearsWorked,
-     } = props
+    } = props
 
     return (
         <ul className='listOfData'>
@@ -17,9 +17,12 @@ export function UserInfo (props) {
             <li>Пол: {userGender}</li>
             <li>Возраст: {userAge}</li>
             <li>Работает лет: {yearsWorked}</li>
-            <li>Зарплата:{yearsWorked*10}</li>
+            <li>Зарплата:{yearsWorked * 10}</li>
+            <hr style={{
+                color: '#000000',
+                height: .5,
+            }} />
         </ul>
 
     )
 };
- 

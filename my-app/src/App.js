@@ -53,9 +53,8 @@ function WorkOnLessonAndHometask() {
             <h1 style={{ border: '1px solid red' }} > Hello, {name}: {sumNumber(17, 5)} </h1>
             <p style={{fontWeight:'bold', color: 'green'}}>Test</p>
             {
-            arrPeople.map((item, i) => (
+            arrPeople.map((item) => (
                 <UserInfo 
-                key={i}
                 userName={item.name} 
                 userGender={item.pol} 
                 userAge={item.age} 
