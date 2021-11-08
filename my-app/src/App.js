@@ -26,12 +26,43 @@ import { UserInfo } from "./components/UserInfo";
 // // }
 const name = 'Vitaliy';
 const sumNumber = (a, b) => a + b;
+
+const arrPeople = [
+    {
+        name: 'Вова',
+        pol: 'Муж',
+        age: 27,
+        workYear: 1
+    },
+    {
+        name: 'Коля',
+        pol: 'Муж',
+        age: 98,
+        workYear: 90
+    },
+    {
+        name: 'Валюха',
+        pol: 'Баба',
+        age: 17,
+        workYear: 3
+    }
+]
 function WorkOnLessonAndHometask() {
     return (
         <div>
             <h1 style={{ border: '1px solid red' }} > Hello, {name}: {sumNumber(17, 5)} </h1>
             <p style={{fontWeight:'bold', color: 'green'}}>Test</p>
-            {<UserInfo></UserInfo>}
+            {
+            arrPeople.map((item, i) => (
+                <UserInfo 
+                key={i}
+                userName={item.name} 
+                userGender={item.pol} 
+                userAge={item.age} 
+                yearsWorked={item.workYear} 
+                />
+            ))
+            }
         </div>
         );
 }
